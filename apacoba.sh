@@ -19,7 +19,9 @@ echo "1.SPAM OTP"
 echo "______________________________"
 echo "2.Termux Tampilan Selamat Datang Wkwk"
 echo "______________________________"
-echo "Pelacak IP"
+echo "3.Pelacak IP"
+echo "______________________________"
+echo "4.Cek Status Website"
 echo "______________________________"
 echo "0.Tunggu Update Selanjut Nya Karena Ini Masih Dalam Pemgembangan"
 echo "______________________________"
@@ -46,6 +48,23 @@ cd TermuxSelamatDatang
 bash install.sh
 exit
 fi
+
+if [ $YA = 3 ]
+then
+echo "TUNGGU SEBENTAR..."
+sleep 2.7s
+python3 ipicker
+exit
+fi
+
+if [ $YA = 4 ]
+then
+echo "TUNGGU SEBENTAR..."
+sleep 2.7s
+python3 y.py
+exit
+fi
+
 
 if [ $YA = 0 ]
 then
