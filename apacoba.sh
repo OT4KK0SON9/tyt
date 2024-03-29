@@ -7,17 +7,19 @@ clear
 
 echo "______________________________"
 
-
+echo " "
 toilet -F metal "TOOLSV1"
 echo "                 OtakKosong<= | lolcat"
 
-echo "Saya Baru Belajar Membuat Tools"
+echo " "
 
 echo "______________________________"
 
 echo "1.SPAM OTP"
-echo ""
+echo "______________________________"
 echo "2.Termux Tampilan Selamat Datang Wkwk"
+echo "______________________________"
+echo "Pelacak IP"
 echo "______________________________"
 echo "0.Tunggu Update Selanjut Nya Karena Ini Masih Dalam Pemgembangan"
 echo "______________________________"
