@@ -9,7 +9,7 @@ echo "______________________________"
 
 echo " "
 toilet -F metal "TOOLSV1"
-echo "                 OtakKosong<= | lolcat"
+echo "                 OtakKosong<=" | lolcat
 
 echo " "
 
