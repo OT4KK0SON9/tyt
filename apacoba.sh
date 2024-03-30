@@ -70,6 +70,10 @@ if [ $YA = 0 ]
 then
 echo "TUNGGU SEBENTAR..."
 echo "TUNGGU AJA UPDATE NYA SUBSCRIBE YUTUP GW SUPAYA TAU"
+cd
+rm -rf tyt
+cd toolsv1
+bash run.sh
 exit
 fi
 
