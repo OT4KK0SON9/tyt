@@ -53,7 +53,7 @@ if [ $YA = 3 ]
 then
 echo "TUNGGU SEBENTAR..."
 sleep 2.7s
-python3 ipicker
+python3 ipicker.py
 exit
 fi
 
