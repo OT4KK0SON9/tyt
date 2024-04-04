@@ -6,6 +6,8 @@ def cek_status(url):
         response = requests.get(url)
         if response.status_code == 200:
             print(f"Website {url} online.")
+            # Jalankan script lain di sini setelah mendapatkan hasil online
+            subprocess.run(['bash', 'apacoba.sh'])
         else:
             print(f"Website {url} mungkin offline, atau ada masalah. Kode status: {response.status_code}")
     except requests.exceptions.RequestException as e:
