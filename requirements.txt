@@ -17,4 +17,3 @@ pygame
 pandas
 python-vlc
 colorama
-request
